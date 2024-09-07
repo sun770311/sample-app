@@ -5,8 +5,6 @@ This repository provides a practical demonstration of integrating Nango into you
 ## Save Workspace Contacts
 Store workspace contact information (User ID, Full Name) in PostgreSQL. When completed, you should see a list of IDs and full names of people in your workspace, followed by a 'Send' message button on your frontend. Scroll to the end to see this update.
 
-![Example App](example.png)
-
 ## Highlights
 
 - Folder [nango-integrations](/nango-integrations/) To use Nango you need some integrations, this folder (setup with our CLI) contains the scripts that will fetch your users’ data.
