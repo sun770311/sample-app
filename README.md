@@ -2,7 +2,7 @@
 
 This repository provides a practical demonstration of integrating Nango into your codebase. It includes Syncs scripts, a backend API for managing Nango's webhooks, and a straightforward frontend for user interaction and data retrieval. 
 
-## Save Workspace Contacts
+## My Update: Save Workspace Contacts
 Store workspace contact information (User ID, Full Name) in PostgreSQL. When completed, you should see a list of IDs and full names of people in your workspace, followed by a 'Send' message button on your frontend. Scroll to the end to see this update.
 
 ## Highlights
