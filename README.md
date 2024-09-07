@@ -45,7 +45,7 @@ npm install -g nango
 cd nango-integrations/
 nango init
 
-# Add your Nango Secret Key in NANGO_SECRET_KEY_PROD
+# Add your Nango Secret Key in NANGO_SECRET_KEY_PROD (wait for the console prompt)
 code .env
 nango deploy prod
 
@@ -57,5 +57,24 @@ npm run webhooks-proxy
 # Launch
 npm run start
 ```
-
 Go to: [http://localhost:3000](http://localhost:3000)
+
+### Exit and save workspace contacts to database.
+
+```sh
+# Ensure you have Node.js installed on your machine. You can check by running:
+node -v
+nvm -v
+
+# In back-end, install Slack SDK for Node.js
+npm install @slack/web-api
+
+# Navigate to back-end and set slack bot token (should start with 'xoxb-')
+SLACK_BOT_TOKEN=xoxb-xxxx
+
+# Run the script in src folder
+node src/fetchUsers.js
+
+npm run webhooks-proxy
+npm run start
+```
